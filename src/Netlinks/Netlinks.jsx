@@ -294,7 +294,7 @@ Cloud & managed services.</h1>
   <div className="agent1">
     <p className="agenttext">02, AI & Automation</p>
 <h1>Agents that don't just chat,<br />
-   <span className="plus">they work.</span></h1>
+   <span className="plus-faq">they work.</span></h1>
 
 <p>Production AI agents that close tickets, reconcile <br />
  invoices, and answer procurement queries. Grounded, <br />
