@@ -1,0 +1,1332 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial,  sans-serif;
+    line-height: 1.6;
+    background-color: white;
+}
+
+.Nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(219, 214, 214);
+    flex-wrap: wrap;
+   background-color: white;
+
+   width: 1200px;
+     position: fixed;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+.Nav img {
+    width: 180px;
+    padding: 15px 0;
+}
+.Nav .menu{
+    display: flex;
+    gap: 2rem;
+    padding: 19px;
+    list-style-type: none;
+    font-size: 15px;
+    font-weight: bold;
+   
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+.menu a:hover{
+    background-color: rgb(248,241, 246);
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 9px 14px;
+    color: #6b5682;
+
+}
+
+
+.navbtn{
+    padding: 9px 25px;
+    border-radius: 33px;
+    border: none;
+    text-decoration: none;
+    color: white;
+    background-color: #6d5486;
+    margin-right: 30px;
+
+}
+.navbtn:hover{
+    box-shadow: 0px 0px 13px rgb(173, 167, 167);
+    background-color: #8a6fa6;
+}
+
+.Hero{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8rem;
+}
+.Hero img{
+    width: 650px;
+    height: 500px;
+    
+}
+.text{
+    border: 1px solid rgb(230, 227, 227);
+    padding: 12px 22px;
+    border-radius: 30px;
+    margin-top: 1.8rem;
+    margin-left: 20px;
+    font-size: 14px;
+}
+.dot{
+
+ color: orange;
+ padding: 6px;
+  box-shadow:10 10 10 10px orange;
+
+
+   
+}
+.head1{
+    font-size: 45px;
+    margin-left: 20px;
+   margin-top: 20px;
+   line-height: 1.2;
+   margin-bottom: 12px;
+}
+.headspan{
+    margin-top: 30px;
+    color: #6d5486;
+    font-size: 45px;
+}
+.text1{
+    font-size: 16px;
+    margin-left: 20px;
+    color: rgb(45, 45, 45);
+}
+.btns{
+    display: flex;
+    gap: 12px;
+   margin-left: 20px;
+   
+}
+.btn1{
+ color: white;
+    background-color: #6b5682;
+   border-radius: 33px;
+    text-decoration: none;
+    padding: 12px;
+    align-items: center;
+    font-size: 12px;
+}
+.btn2{
+     color: black;
+    background-color: white;
+   border-radius: 33px;
+    text-decoration: none;
+   padding: 9px 12px;
+    font-size: 14px;
+    border: 1px solid rgb(119, 118, 118);
+}
+.under{
+    display: flex;
+    gap: 1.6rem;
+    margin-top: 1rem;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: rgb(78, 75, 75);
+}
+
+.line{
+  width: 30%;
+  margin-left: 20px;
+  margin-top: 2rem;
+  color:#faf2f2
+}
+.underhead{
+    color: black;
+    font-size: 24px;
+}
+.plus-faq{
+    color: #6b5682;
+}
+/* movment pics */
+
+.light{
+    background-color:rgb(232, 231, 231);
+  height: fit-content;
+}
+.lighttext{
+    text-align: center;
+    color: rgb(142, 140, 140);
+    font-size: 18px;
+    padding: 18px;
+    
+    
+}
+.move {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 89px;
+}
+
+.move1 {
+    display: flex;
+    width: max-content;
+    align-items: center;
+    gap: 20px;
+    animation: scroll 20s linear infinite;
+}
+
+.move1 img {
+    width: 120px;
+    height: 70px;
+    flex-shrink: 0;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+    
+     margin-bottom: 12px;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(calc(-50% - 7.5px));
+    }
+}
+.what{
+    color: rgb(80, 79, 79);
+    font-size: 15px;
+    margin: 30px;
+    margin-top: 2rem;
+}
+.boxhead{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+
+}
+.boxhead h1{
+font-size: 45px;
+line-height: 1.2;
+}
+.box{
+    display: grid;
+    max-width: 1210px;
+    grid-template-columns:repeat(3,1fr);
+ grid-template-rows: repeat(2,1fr);
+    border-radius: 35px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    overflow: hidden;
+    margin-left: 25px;
+
+
+}
+.box1child{
+    display: flex;
+    gap: 2rem;
+align-items: center;
+}
+.box1child{
+    display: flex;
+   justify-content: space-between;
+   margin-top: 10px;
+}
+.boxitems{
+      border-right: 1px solid rgb(216, 213, 213);
+  border-bottom: 1px solid rgb(216, 213, 213);
+    padding: 20px;
+    font-size: 15px;
+    color: rgb(49, 46, 46);
+    padding: 6px;
+    
+}
+.arrow{
+    border: 1px solid rgb(216, 213, 213);
+    width:35px;
+    height: 35px;
+    border-radius: 50%;
+   font-weight: bold;
+   font-size: 20px;
+   padding-left:9px ;
+   animation-duration: 2s;
+   color: #626161;
+}
+.arrow:hover{
+    background-color: #6d5486;
+    color: white;
+}
+.boxitems:hover{
+    background-color: rgb(241, 239, 239);
+}
+.box1child p{
+    font-size: 14px;
+    color: rgb(45, 43, 43);
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.boxChild h1{
+    font-size: 22px;
+    padding: 6px;
+}
+.boxChild{
+    padding-left: 9px;
+    padding-right: 9px;
+  
+}
+.boxChild p{
+    color: #383737;
+}
+.cream{
+    background-color: #f7f4f0;
+    margin-top: 6rem;
+    width: fit-content;
+}
+.erp{
+  padding-top: 2rem;
+  margin-left: 30px;
+}
+.odoo{
+    display: flex;
+    justify-content: space-between;
+}
+.odoo img{
+    width: 800px;
+    height: 600px;
+}
+.odoo1{
+    margin-left: 30px;
+  color: #292929;
+  
+}
+.odoo1 h1{
+    margin-bottom: 12px;
+    margin-top: 20px;
+}
+.odoo1 p{
+   
+    margin-bottom: 1.5rem;
+}
+ li::marker {
+  color: #6d5486;
+  list-style: circle;
+  font-size: 20px;
+}
+.btnp{
+    padding: 15px 22px;
+    border-radius: 30px;
+    border: none;
+    color: black;
+   border: 1px solid #4f4e4e;
+    text-decoration: none;
+    margin-left: 30px;
+}
+.arr{
+    font-weight: bolder;
+    font-size: 18px;
+}
+.agent{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+}
+.agent img{
+    width: 600px;
+    height: 500px;
+}
+.agenttext{
+   margin-top: 2rem;
+   color: #383737;
+}
+.agent1 h1{
+    margin-top: 2rem;
+    font-size: 30px;
+}
+.agent1 p{
+    margin-top: 1rem;
+}
+.btnpp{
+padding: 8px 20px;
+    border-radius: 30px;
+    border: none;
+    color: black;
+   border: 1px solid #4f4e4e;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.odoo11 img{
+    width: 700px;
+    height: 500px;
+}
+.industrytext{
+    margin-top: 2px;
+    margin-left: 30px;
+}
+.pt{
+    display: flex;
+  gap: 8rem;
+    margin-top: 3rem;
+     margin: 30px;
+     margin-bottom: 4rem;
+}
+.pt h1{
+    line-height: 1.2;
+    font-size: 40px;
+}
+.pt p{
+    color: #383737;
+}
+.line2{
+  width: 1200px;
+  margin: 30px;
+  color:  #f2f2f2;;
+}
+.parent{
+    display: flex;
+    justify-content: space-between;
+     margin-right: 40px;
+}
+.content{
+    display: flex;
+    gap:5rem;
+    margin-left: 30px;
+    color: #383737;
+}
+.content h2{
+    font-size: 18px;
+    color: #201f1f;
+}
+.arrow11{
+    width: 45px;
+    height: 45px;
+    padding: 10px;
+    border-radius: 50%;
+    border: 1px solid #b7b6b6;
+    font-weight: bolder;
+    color: #201f1f;
+}
+.parent {
+  transition: transform 0.4s ease;
+}
+
+.parent:hover {
+  transform: translateX(13px);
+}
+.yes{
+    margin-top: 4rem;
+    text-align: center;
+    background-color: #eae1f5;
+    font-size: 19px;
+}
+.no{
+      margin-top: 5rem;
+    font-weight: bolder;
+    font-size: 68px;
+}
+.yes p{
+    font-size: 15px;
+    margin-top: 1.5rem;
+     color: #383737;
+     padding-bottom: 20px;
+}
+.pluss{
+    color: #6b5682;
+    height: auto;
+}
+.question{
+    width:90%;
+    max-width:1500px;
+    margin:70px auto;
+    
+}
+.headq h1{
+    margin-left: 30px;
+}
+.headq p{
+    margin-left: 30px;
+    margin-bottom: 1rem;
+}
+.ask{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:16px 0;
+    border-top:1px solid #d8d8d8;
+}
+
+.ask:last-child{
+    border-bottom:1px solid #d8d8d8;
+}
+
+.ask h2{
+    font-size:20px;
+    font-weight:90;
+    color:#222;
+}
+
+.plus{
+    width:30px;
+    height:30px;
+    border:1px solid #d8d8d8;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:30px;
+    color:#444;
+    cursor:pointer;
+   
+}
+
+.purple{
+    background-color: #6d5486;
+    border: none;
+    width: 95%;
+    border-radius: 15px;
+    min-height: 200px;
+  text-align: center;
+  padding: 50px;
+  margin-left: 35px;
+
+  
+}
+.purp h1{
+    margin-top: 35px;
+    padding: 8px;
+    font-size: 50px;
+    color: white;
+}
+.purp p{
+    padding: 8px;
+    font-size: 18px;
+    color: white;
+}
+.purp button{
+    margin-top: 15px;
+    padding: 12px 25px;
+    border-radius: 30px;
+    border: none;
+    color: #6d5486;
+    background-color: white;
+   
+}
+
+footer{
+margin-top: 50px;
+border-top: 1px solid #ddd;
+}
+
+.foot{
+margin-top: 40px;
+    display: flex;
+    gap: 4rem;
+    margin-left: 40px;
+}
+.end img{
+        width: 160px;
+}
+.img{
+    display: flex;
+    gap: 1rem;
+}
+.footimg{
+    display: flex;
+    gap: 1rem;
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    padding: 8px;
+    margin-bottom: 40px;
+}
+.end{
+    line-height: 1.5;
+   
+    
+}
+.end a{
+    color:#444;
+    text-decoration: none;
+    line-height: 1.9;
+}
+.end p{
+    color: #444;
+    font-size: 13px;
+}
+.end a:hover{
+    color: black;
+    cursor: pointer;
+}
+.last{
+    border-top: 1px solid#d8d8d8;
+    margin-top: 12px;
+}
+
+.last{
+   padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    color: #444;
+    font-size: 11px;
+}
+.part a{
+    text-decoration: none;
+    color:#444;
+
+}
+
+
+/* =====================================================
+   RESPONSIVE DESIGN
+   Add this AFTER your existing CSS
+   ===================================================== */
+
+/* ---------- GENERAL ---------- */
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* =====================================================
+   TABLET
+   768px - 1024px
+   ===================================================== */
+
+@media (max-width: 1024px) {
+
+    /* NAVBAR */
+
+    .Nav {
+        width: calc(100% - 30px);
+        left: 15px;
+        right: 15px;
+        top: 10px;
+        padding: 0 10px;
+    }
+
+    .Nav img {
+        width: 150px;
+    }
+
+    .Nav .menu {
+        gap: 12px;
+        padding: 15px 5px;
+        font-size: 14px;
+    }
+
+    .navbtn {
+        margin-right: 10px;
+        padding: 8px 18px;
+    }
+
+
+    /* HERO */
+
+    .Hero {
+        margin-top: 7rem;
+        padding: 0 25px;
+        gap: 25px;
+        align-items: center;
+    }
+
+    .Hero img {
+        width: 50%;
+        height: auto;
+    }
+
+    .head1,
+    .headspan {
+        font-size: 38px;
+    }
+
+    .text {
+        margin-left: 0;
+    }
+
+    .head1,
+    .text1,
+    .btns,
+    .under {
+        margin-left: 0;
+    }
+
+
+    /* MOVING IMAGES */
+
+    .move {
+        margin-top: 60px;
+    }
+
+
+    /* SERVICES */
+
+    .boxhead {
+        margin: 25px;
+        gap: 20px;
+    }
+
+    .boxhead h1 {
+        font-size: 38px;
+    }
+
+    .box {
+        width: calc(100% - 40px);
+        margin: 20px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    /* ODOO SECTION */
+
+    .cream {
+        width: 100%;
+        margin-top: 4rem;
+    }
+
+    .odoo {
+        align-items: center;
+        gap: 20px;
+        padding: 0 20px;
+    }
+
+    .odoo img {
+        width: 50%;
+        height: auto;
+    }
+
+    .odoo1 {
+        margin-left: 0;
+    }
+
+
+    /* AGENT SECTION */
+
+    .agent {
+        margin: 30px;
+        gap: 25px;
+        align-items: center;
+    }
+
+    .agent img {
+        width: 50%;
+        height: auto;
+    }
+
+
+    /* INDUSTRY */
+
+    .odoo11 img {
+        width: 50%;
+        height: auto;
+    }
+
+    .pt {
+        gap: 3rem;
+        margin: 30px;
+    }
+
+    .pt h1 {
+        font-size: 34px;
+    }
+
+    .line2 {
+        width: calc(100% - 60px);
+        margin: 30px;
+    }
+
+
+    /* INDUSTRY LIST */
+
+    .parent {
+        margin: 0 30px;
+        gap: 20px;
+    }
+
+    .content {
+        gap: 2rem;
+        margin-left: 0;
+    }
+
+
+    /* FAQ */
+
+    .question {
+        width: calc(100% - 60px);
+        margin: 60px auto;
+    }
+
+
+    /* PURPLE CTA */
+
+    .purple {
+        width: calc(100% - 50px);
+        margin: 30px auto;
+    }
+
+    .purp h1 {
+        font-size: 40px;
+    }
+
+
+    /* FOOTER */
+
+    .foot {
+        flex-wrap: wrap;
+        gap: 3rem;
+        margin: 35px;
+    }
+}
+
+
+/* =====================================================
+   MOBILE
+   767px AND BELOW
+   ===================================================== */
+
+@media (max-width: 767px) {
+
+    /* GENERAL */
+
+    body {
+        font-size: 14px;
+    }
+
+
+    /* =================================================
+       NAVBAR
+       ================================================= */
+
+    .Nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        min-height: 65px;
+        padding: 5px 15px;
+        border-radius: 0;
+        justify-content: space-between;
+    }
+
+    .Nav img {
+        width: 130px;
+        padding: 10px 0;
+    }
+
+    /*
+       Hide desktop menu/button.
+       This prevents the navbar from becoming
+       too crowded on iPhone.
+    */
+
+    
+
+    .navbtn {
+        margin-right: 0;
+        padding: 8px 16px;
+        font-size: 12px;
+    }
+
+
+    /* =================================================
+       HERO
+       ================================================= */
+
+    .Hero {
+        flex-direction: column;
+        margin-top: 5.5rem;
+        padding: 0 20px;
+        gap: 30px;
+    }
+
+    .Hero img {
+        order: -1;
+        width: 100%;
+        height: auto;
+    }
+
+    .text {
+        margin: 0;
+        padding: 9px 15px;
+        font-size: 12px;
+        display: inline-block;
+    }
+
+    .head1 {
+        margin: 18px 0 10px;
+        font-size: 36px;
+        line-height: 1.15;
+    }
+
+    .headspan {
+        font-size: 36px;
+    }
+
+    .text1 {
+        margin: 0;
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    .btns {
+        margin: 20px 0 0;
+        flex-wrap: wrap;
+    }
+
+    .btn1,
+    .btn2 {
+        padding: 10px 16px;
+    }
+
+    .under {
+        margin: 20px 0 0;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+
+    .underhead {
+        font-size: 20px;
+    }
+
+    .line {
+        width: 100%;
+        margin: 25px 0;
+    }
+
+
+    /* =================================================
+       MOVING IMAGES
+       ================================================= */
+
+    .move {
+        margin-top: 45px;
+    }
+
+    .lighttext {
+        font-size: 15px;
+        padding: 15px;
+    }
+
+    .move1 {
+        gap: 12px;
+    }
+
+    .move1 img {
+        width: 95px;
+        height: 60px;
+    }
+
+
+    /* =================================================
+       SERVICES
+       ================================================= */
+
+    .what {
+        margin: 25px 20px 15px;
+        font-size: 14px;
+    }
+
+    .boxhead {
+        flex-direction: column;
+        margin: 20px;
+        gap: 15px;
+    }
+
+    .boxhead h1 {
+        font-size: 32px;
+    }
+
+    .box {
+        width: calc(100% - 30px);
+        margin: 15px;
+        grid-template-columns: 1fr;
+        border-radius: 25px;
+    }
+
+    .boxitems {
+        border-right: none;
+        padding: 18px;
+    }
+
+    .boxitems:last-child {
+        border-bottom: none;
+    }
+
+    .box1child {
+        gap: 10px;
+    }
+
+    .boxChild h1 {
+        font-size: 20px;
+    }
+
+
+    /* =================================================
+       ODOO SECTION
+       ================================================= */
+
+    .cream {
+        width: 100%;
+        margin-top: 4rem;
+    }
+
+    .erp {
+        padding-top: 2rem;
+        margin-left: 20px;
+    }
+
+    .odoo {
+        flex-direction: column;
+        padding: 0 20px 30px;
+    }
+
+    .odoo img {
+        width: 100%;
+        height: auto;
+        order: -1;
+    }
+
+    .odoo1 {
+        margin: 0;
+    }
+
+    .odoo1 h1 {
+        font-size: 28px;
+        margin-top: 15px;
+    }
+
+    .odoo1 p {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    .btnp {
+        display: inline-block;
+        margin-left: 0;
+        padding: 12px 18px;
+    }
+
+
+    /* =================================================
+       AGENT
+       ================================================= */
+
+    .agent {
+        flex-direction: column;
+        margin: 40px 20px;
+        gap: 25px;
+    }
+
+    .agent img {
+        width: 100%;
+        height: auto;
+        order: -1;
+    }
+
+    .agenttext {
+        margin-top: 0;
+    }
+
+    .agent1 h1 {
+        margin-top: 0;
+        font-size: 28px;
+    }
+
+    .agent1 p {
+        line-height: 1.6;
+    }
+
+    .btnpp {
+        margin-left: 0;
+        margin-top: 10px;
+        display: inline-block;
+    }
+
+
+    /* =================================================
+       INDUSTRY
+       ================================================= */
+
+    .odoo11 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .industrytext {
+        margin: 25px 20px;
+    }
+
+    .pt {
+        flex-direction: column;
+        gap: 20px;
+        margin: 30px 20px;
+    }
+
+    .pt h1 {
+        font-size: 32px;
+    }
+
+    .pt p {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    .line2 {
+        width: calc(100% - 40px);
+        margin: 25px 20px;
+    }
+
+
+    /* =================================================
+       INDUSTRY ITEMS
+       ================================================= */
+
+    .parent {
+        margin: 0 20px;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .content {
+        flex-direction: column;
+        gap: 15px;
+        margin-left: 0;
+    }
+
+    .content h2 {
+        font-size: 18px;
+    }
+
+    .arrow11 {
+        align-self: flex-start;
+    }
+
+
+    /* =================================================
+       YES / STATEMENT
+       ================================================= */
+
+    .yes {
+        margin-top: 3rem;
+        padding: 35px 20px;
+        font-size: 16px;
+    }
+
+    .no {
+        margin-top: 0;
+        font-size: 42px;
+    }
+
+    .yes p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+
+    /* =================================================
+       FAQ
+       ================================================= */
+
+    .question {
+        width: calc(100% - 40px);
+        margin: 50px auto;
+    }
+
+    .headq h1 {
+        margin-left: 0;
+        font-size: 30px;
+    }
+
+    .headq p {
+        margin-left: 0;
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .ask {
+        gap: 15px;
+        padding: 17px 0;
+    }
+
+    .ask h2 {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+
+    .plus {
+        min-width: 30px;
+        width: 30px;
+        height: 30px;
+        font-size: 24px;
+    }
+
+
+    /* =================================================
+       PURPLE CTA
+       ================================================= */
+
+    .purple {
+        width: calc(100% - 30px);
+        min-height: auto;
+        margin: 30px auto;
+        padding: 35px 20px;
+        border-radius: 15px;
+    }
+
+    .purp h1 {
+        margin-top: 0;
+        padding: 5px;
+        font-size: 32px;
+        line-height: 1.2;
+    }
+
+    .purp p {
+        padding: 8px;
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    .purp button {
+        padding: 11px 20px;
+    }
+
+
+    /* =================================================
+       FOOTER
+       ================================================= */
+
+    footer {
+        margin-top: 40px;
+    }
+
+    .foot {
+        flex-direction: column;
+        gap: 30px;
+        margin: 30px 20px;
+    }
+
+    .end img {
+        width: 140px;
+    }
+
+    .img {
+        gap: 10px;
+    }
+
+    .footimg {
+        width: 35px;
+        height: 35px;
+        margin-bottom: 20px;
+    }
+
+    .last {
+        flex-direction: column;
+        gap: 10px;
+        margin: 0;
+        padding: 18px 20px;
+        font-size: 10px;
+    }
+}
+
+
+/* =====================================================
+   SMALL IPHONES
+   480px AND BELOW
+   ===================================================== */
+
+@media (max-width: 480px) {
+
+    .Nav img {
+        width: 115px;
+    }
+
+    .navbtn {
+        padding: 7px 13px;
+        font-size: 11px;
+    }
+
+    .Hero {
+        padding: 0 15px;
+    }
+
+    .head1,
+    .headspan {
+        font-size: 31px;
+    }
+
+    .text1 {
+        font-size: 14px;
+    }
+
+    .btns {
+        gap: 8px;
+    }
+
+    .btn1,
+    .btn2 {
+        font-size: 12px;
+    }
+
+    .box {
+        width: calc(100% - 20px);
+        margin: 10px;
+    }
+
+    .boxhead {
+        margin: 20px 15px;
+    }
+
+    .boxhead h1 {
+        font-size: 28px;
+    }
+
+    .odoo1 h1,
+    .agent1 h1 {
+        font-size: 25px;
+    }
+
+    .pt h1 {
+        font-size: 28px;
+    }
+
+    .no {
+        font-size: 36px;
+    }
+
+    .purp h1 {
+        font-size: 28px;
+    }
+
+    .question {
+        width: calc(100% - 30px);
+    }
+
+    .ask h2 {
+        font-size: 15px;
+    }
+}
