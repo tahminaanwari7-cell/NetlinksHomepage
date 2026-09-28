@@ -457,42 +457,32 @@ Cloud & managed services.</h1>
 <section className="qback">
   <div className="headq">
     <p>,Questions</p>
-    <h1>Odoo CRM, frequently asked.</h1>
+    <h1>Answers to what CIOs actually ask.</h1>
   </div>
 
   <section className="question">
 
     <div className="ask">
-      <h2>Can we migrate from HubSpot or Salesforce?</h2>
+      <h2>What does NETLINKS do?</h2>
       <div className="plus">+</div>
     </div>
 
     <div className="ask">
-      <h2>Does it handle complex B2B sales with multiple stakeholders?</h2>
+      <h2>How experienced is NETLINKS with Odoo?</h2>
       <div className="plus">+</div>
     </div>
 
     <div className="ask">
-      <h2>How does forecasting work?</h2>
+      <h2>What industries does NETLINKS serve?</h2>
       <div className="plus">+</div>
     </div>
 
     <div className="ask">
-      <h2>What about lead scoring?</h2>
+      <h2>How does an engagement with NETLINKS start?</h2>
       <div className="plus">+</div>
     </div>
 
-    <div className="ask">
-      <h2>Can reps use it on mobile?</h2>
-      <div className="plus">+</div>
-    </div>
-
-    <div className="ask">
-      <h2>
-        What about call recording and conversation intelligence?
-      </h2>
-      <div className="plus">+</div>
-    </div>
+   
 
   </section>
 
@@ -502,14 +492,13 @@ Cloud & managed services.</h1>
   <section>
     <div className="purple">
       <div className="purp">
-        <h1>Sales pipeline a mess?</h1>
+        <h1>Talk to a senior architect <br /> this week.</h1>
 
         <p>
-          30-min CRM rollout call with a senior architect. We map the <br />
-          pipeline and quote a fixed-fee plan in 5 business days.
+        30-minute call. Walk away with a phased plan and fixed-fee <br /> scoping in 5 business days.
         </p>
 
-        <button>Talk to a CRM architect</button>
+        <button>Book a 30-min discovery call</button>
       </div>
     </div>
   </section>
