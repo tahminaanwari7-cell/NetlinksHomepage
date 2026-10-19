@@ -52,6 +52,14 @@ body {
 
 }
 
+.menu a {
+  transition: all 0.3s ease;
+}
+
+.menu a:hover {
+  color: black;
+}
+
 
 .navbtn{
     padding: 9px 25px;
